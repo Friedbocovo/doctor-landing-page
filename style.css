@@ -209,13 +209,13 @@
 }
 
 .rectangle {
-  border:1px solid black;
-  background:url("image/Ellipse 14.png");
+  border: 0;
+  background: var(--color-blue-grad);
   height: 50px;
-  width: 50px;
+  width: 40px;
   position: absolute;
-  left: 640px;
-  top: 280px;
+  left: 540px;
+  top: -230px;
 }
 .footer{
   padding:10px 50px;
@@ -309,7 +309,7 @@
   
 }
 
-.footer-right{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       .__p{
+.footer-right__p{
   font-size: 12px;
   font-weight: 400;
 }
