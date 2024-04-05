@@ -15,19 +15,20 @@
 }
 
 :root {
-  --container2-bg-color: linear-gradient(
+  --bg2-color: linear-gradient(
     41.64deg,
     rgba(0, 191, 165, 0.27) 25.39%,
     rgba(64, 133, 247, 0) 131.52%
   );
-  --container1-bg-color: #f2f7ff;
-  --box-shadow-div-color: #4184f73d;
-  --box-shadow-button-color: #4184f73d;
-  --box-shadow1-elipse-color: #00000059;
-  --box-shadow2-elipse-color: #ffffff99;
+  --bg1-color: #f2f7ff;
+  --box-shadow2-color: #4184f73d;
+  --box-shadow1-color: #4184f73d;
+  --box-shadow3-color: #00000059;
+  --box-shadow4-color: #ffffff99;
+  --box-shadow5-color:#0309320A;
   --color-blue: #3a8ef6;
-  --container-p-color: #6c87ae;
-  --color-blue-ceil: #00bfa5;
+  --p-color: #6c87ae;
+  --title-color: #00bfa5;
   --color-white: #ffffff;
   --color-black: #031432;
   --color-blue-grad: linear-gradient(
@@ -35,7 +36,9 @@
     #3a8ef6 -291.15%,
     #6f3afa 817.96%
   );
-  --bg-color3: linear-gradient(145.08deg, #1678f2 3.73%, #65a8fb 132.69%);
+  --bg3-color: linear-gradient(145.08deg, #1678f2 3.73%, #65a8fb 132.69%);
+  --bg4-color: #1678F2;
+
 }
 
 button {
@@ -43,7 +46,7 @@ button {
 }
 
 .container1 {
-  background-color: var(--container1-bg-color);
+  background-color: var(--bg1-color);
   height: 578px;
   border-radius: 32px;
 }
@@ -97,7 +100,7 @@ button {
   border: 1px solid var(--color-blue-grad);
   display: flex;
   height: 40px;
-  box-shadow: 0px 8px 23px 0px var(--box-shadow-button-color);
+  box-shadow: 0px 8px 23px 0px var(--box-shadow1-color);
   width: 140px;
   font-size: 18px;
   border-radius: 100px;
@@ -177,7 +180,7 @@ button {
 }
 
 .article__span {
-  color: var(--color-blue-ceil);
+  color: var(--title-color);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 33px;
@@ -191,7 +194,7 @@ button {
 }
 
 .article__p {
-  color: var(--container-p-color);
+  color: var(--p-color);
   font-size: 12px;
 }
 .article__button {
@@ -199,7 +202,7 @@ button {
   width: Hug(288px);
   padding: 16px, 28px, 16px, 28px;
   border-radius: 100px;
-  box-shadow: 0px 8px 23px 0px var(--box-shadow-button-color);
+  box-shadow: 0px 8px 23px 0px var(--box-shadow1-color);
   background: var(--color-blue-grad);
   color: var(--color-white);
   border: 1px solid var(--color-blue-grad);
@@ -259,7 +262,7 @@ button {
 }
 
 .footer-left {
-  box-shadow: 0px 8px 23px 0px var(--box-shadow-div-color);
+  box-shadow: 0px 8px 23px 0px var(--box-shadow2-color);
   height: Hug(172px);
   width: 185px;
   padding: 8px 18px 8px 18px;
@@ -269,7 +272,7 @@ button {
 }
 
 .footer-center {
-  box-shadow: 0px 8px 23px 0px var(--box-shadow-div-color);
+  box-shadow: 0px 8px 23px 0px var(--box-shadow2-color);
   height: Hug(172px);
   width: 200px;
   padding: 8px 18px 8px 18px;
@@ -281,7 +284,7 @@ button {
 }
 
 .footer-right {
-  box-shadow: 0px 8px 23px 0px var(--box-shadow-div-color);
+  box-shadow: 0px 8px 23px 0px var(--box-shadow2-color);
   height: Hug(209px);
   width: 180px;
   padding: 8px 18px 8px 18px;
@@ -364,7 +367,7 @@ button {
   font-weight: 600;
 }
 .container2__article__p {
-  color: var(--container-p-color);
+  color: var(--p-color);
   font-weight: 400;
   font-size: 12px;
 }
@@ -378,7 +381,7 @@ button {
 .container2__article__button {
   border: 0;
   background: var(--color-blue-grad);
-  box-shadow: 0px 8px 23px 0px var(--box-shadow-button-color);
+  box-shadow: 0px 8px 23px 0px var(--box-shadow1-color);
   border-radius: 100px;
   height: 40px;
   text-align: center;
@@ -391,12 +394,12 @@ button {
   top: -7px;
 }
 .container2__article__h2 {
-  color: var(--color-blue-ceil);
+  color: var(--title-color);
   position: relative;
   top: 20px;
 }
 .container2__div__img-doctor {
-  background: var(--container2-bg-color);
+  background: var(--bg2-color);
   height: 230px;
   width: 300px;
   border-radius: 32px;
@@ -441,7 +444,7 @@ button {
   left: 105px;
 }
 .container3 {
-  background: var(--container1-bg-color);
+  background: var(--bg1-color);
 }
 
 .container3-1 {
@@ -457,7 +460,7 @@ button {
 }
 
 .container3-1-1__h5 {
-  color: var(--color-blue-ceil);
+  color: var(--title-color);
   font-weight: 500;
   position: relative;
   top: 10px;
@@ -480,7 +483,7 @@ button {
 .container3-1-1__button {
   border: 0;
   background: var(--color-blue-grad);
-  box-shadow: 0px 8px 23px 0px var(--box-shadow-button-color);
+  box-shadow: 0px 8px 23px 0px var(--box-shadow1-color);
   border-radius: 100px;
   height: 40px;
   text-align: center;
@@ -491,6 +494,10 @@ button {
   position: relative;
   bottom: 7px;
   font-weight: 600;
+}
+
+.container3-1-1__button__img{
+  height: 25px;
 }
 
 .container3-1-2 {
@@ -512,8 +519,8 @@ button {
   height: 250px;
   top: 73px;
   right: 92px;
-  box-shadow: 1px -2px 3px 0px var(--box-shadow1-elipse-color) inset;
-  box-shadow: -2px -2px 4px 0px var(--box-shadow2-elipse-color);
+  box-shadow: 1px -2px 3px 0px var(--box-shadow3-color) inset;
+  box-shadow: -2px -2px 4px 0px var(--box-shadow4-color);
 }
 
 .container3-1-2__img-elipse3 {
@@ -531,7 +538,7 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 150px;
-  background: var(--color-blue-ceil);
+  background: var(--title-color);
   bottom: 313px;
   left: 300px;
 }
@@ -549,7 +556,7 @@ button {
 }
 
 .container3-1-2__img-analiser {
-  background: var(--container1-bg-color);
+  background: var(--bg1-color);
   position: relative;
   top: -325px;
   left: 235px;
@@ -557,7 +564,7 @@ button {
   border-radius: 9000px;
 }
 .container3-1-2__img-adn {
-  background: var(--container1-bg-color);
+  background: var(--bg1-color);
   border-radius: 950px;
   top: -508px;
   left: 350px;
@@ -613,7 +620,7 @@ button {
 .container3-2-1__div__p,
 .container3-2-2__div__p {
   text-align: left;
-  color: var(--container-p-color);
+  color: var(--p-color);
   font-weight: 400;
   font-size: 11px;
 }
@@ -623,7 +630,7 @@ button {
   display: flex;
   width: 180px;
   height: 40px;
-  box-shadow: 0px 8px 23px 0px var(--box-shadow-button-color);
+  box-shadow: 0px 8px 23px 0px var(--box-shadow1-color);
   border-radius: 100px;
   background: var(--color-blue-grad);
   color: var(--color-white);
@@ -634,6 +641,7 @@ button {
   position: relative;
   top: 6px;
   left: 3px;
+  height: 25px;
 }
 .container3-2-1__div__button__span,
 .container3-2-2__div__button__span {
@@ -646,15 +654,15 @@ button {
 
 .container4 {
   position: relative;
-  top: 50px;
+  top: 110px;
 }
 .container4-1__h4 {
-  position: relative;
-  top: 10px;
-  left: 245px;
+  position: absolute;
+  top: -50px;
+  left: 240px;
   font-family: poppins;
   font-weight: 600;
-  color: var(--color-blue-ceil);
+  color: var(--title-color);
 }
 .container4-1 {
   position: relative;
@@ -665,7 +673,7 @@ button {
   text-align: center;
   padding-top: 20px;
   color: var(--color-white);
-  background: var(--bg-color3);
+  background: var(--bg3-color);
   width: 670px;
   height: 210px;
   border-radius: 32px;
@@ -687,7 +695,7 @@ button {
   display: inline;
   width: 180px;
   height: 40px;
-  box-shadow: 0px 8px 23px 0px var(--box-shadow-button-color);
+  box-shadow: 0px 8px 23px 0px var(--box-shadow1-color);
   border-radius: 100px;
   background: var(--color-white);
   color: var(--color-blue);
@@ -748,7 +756,7 @@ button {
 .container4-2__h4 {
   font-family: poppins;
   font-weight: 500;
-  color: var(--color-blue-ceil);
+  color: var(--title-color);
   position: relative;
   top: 15px;
 }
@@ -771,7 +779,7 @@ button {
   font-family: sora;
   font-weight: 400;
   font-size: 10px;
-  color: var(--container-p-color);
+  color: var(--p-color);
 }
 .container4-2__div-button{
   position: relative;
@@ -779,7 +787,7 @@ button {
 }
 .container4-2__div-button__button {
   height: 2;
-  background: var(--bg-color3);
+  background: var(--bg3-color);
   padding-top: 10px;
   border: 0;
   border-radius: 12px;
@@ -804,3 +812,260 @@ button {
   margin-right: 10px;
 
 }
+
+.container5{
+  position: relative;
+  top:150px;
+  background: var(--bg1-color);
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+  align-items: cneter;
+  justify-content: center;
+}
+
+.container5 a{
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+.container5__p1{
+  font-size: 25px;
+  font-family: poppins;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.container5__p2{
+  position: relative;
+  bottom: 20px;
+  font-size: 12px;
+  font-family: sora;
+  font-weight: 400;
+  color: var(--p-color);
+}
+
+.container5-1,
+.container5-3{
+  display: flex;
+}
+
+.container5-1-1,
+.container5-1-2,
+.container5-3-1,
+.container5-3-2{
+  background-color: var(--color-white);
+  border: 0;
+  border-radius: 30px;
+  text-align: left;
+  position: relative;
+  left: 137px;
+  padding: 0px 25px  0px  25px;
+  margin-right: 20px;
+  box-shadow: box-shadow: 0px 24px 32px -3px var(var(--box-shadow5-color))  ;
+}
+.container5-1-1__p,
+.container5-1-2__p,
+.container5-3-1__p,
+.container5-3-2__p{
+  font-size: 10px;
+  font-family: poppins;
+  font-weight: 250;
+  color: var(--color-black);
+}
+.continer5-1-1__div,
+.continer5-1-2__div,
+.continer5-3-1__div,
+.continer5-3-2__div{
+  display: flex;
+  position: relative;
+  bottom: 08px;
+  left: 08px;
+}
+
+.container5-1-1__div__img,
+.container5-1-2__div__img,
+.container5-3-1__div__img,
+.container5-3-2__div__img{
+  height: 30px;
+  width: 30px;
+
+}
+
+.container5-1-1__div__div__span,
+.container5-1-2__div__div__span,
+.container5-3-1__div__div__span,
+.container5-3-2__div__div__span{
+  font-size: 10px;
+  font-family: poppins;
+  font-weight: 500;
+  color: var(--title-color);
+  position: relative;
+  top: 7px;
+}
+.container5-1-1__div__div__p,
+.container5-1-2__div__div__p,
+.container5-3-1__div__div__p,
+.container5-3-2__div__div__p{
+  font-size: 6px;
+  font-family: sora;
+  font-weight: 400;
+  color: var(--p-color);
+}
+
+.container5-1-1__div__div,
+.container5-1-2__div__div,
+.container5-3-1__div__div,
+.container5-3-2__div__div{
+  position: relative;
+  bottom: 07px;
+  left: 05px;
+}
+
+.container5-2__img1{
+  height: 25px;
+  position: relative;
+  right: 300px;
+}
+
+.container5-2__img2{
+  height:15px;
+  position: relative;
+  left: 300px;
+}
+
+.container6{
+  background-color: var(--bg4-color);
+  padding-top: 150px;
+  color: var(--color-white);
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.container6 ul{
+  list-style: none;
+}
+
+.container6 a{
+  text-decoration: none;
+  font-style: normal;
+  color: var(--color-white);
+}
+
+.container6 li{
+  font-size:08px ;
+  font-family: sora;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.container6__div-ul{
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+ .container6__ul1__li1__span{
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+ }
+ .container6__ul1__li1__img{
+  height: 30px;
+  position: relative;
+  right: 13px;
+  top: 2px;
+  width: 30px;
+ }
+ .container6__ul1__li2{
+  position: relative;
+  margin-top: 10px;
+  line-height: 22px;
+ }
+
+ .container6__ul1__li3__div__img1,
+ .container6__ul1__li3__div__img2,
+ .container6__ul1__li3__div__img3{
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 15px;
+ }
+
+ .container6__ul1__li3__div__img2{
+  left: 12px;
+ }
+ .container6__ul1__li3__div__img3{
+  left: 25px;
+ }
+
+
+ .container6__ul1{
+  position: relative;
+  right: 90px;
+  }
+
+ .container6__ul2{
+  position: relative;
+  top: 10px;
+  right: 30px;
+  line-height: 25px;
+
+ }
+
+ .container6__ul4{
+  position: relative;
+  top: 10px;
+  left: 90px;
+  line-height: 25px;
+
+ }
+
+ .container6__ul3{
+  position: relative;
+  top: -15px;
+  left:40px;
+  line-height: 22px;
+ }
+  .container6__ul2__li1__span{
+  font-family: poppins;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+ }
+
+ .container6__ul2__li1__span{
+  font-family: poppins;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+ }
+
+ .container6__ul3__li1__span{
+  font-family: poppins;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+ }
+ .container6__ul4__li1__span{
+  font-family: poppins;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+ }
+
+ .container6__div-line{
+  border: 1px solid var(--color-white);
+  width: 650px;
+  position: relative;
+  top: 30px;
+  left: 130px;
+ }
+
+ .container6__p{
+  font-size: 12px;
+  font-family: sora;
+  font-weight: 400;
+  position: relative;
+  top: 50px;
+ }
