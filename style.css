@@ -152,7 +152,7 @@ body {
 .section2__about {
   display: flex;
   min-width: 1000px;
-  justify-text-content: space-between;
+  justify-content: space-between;
   margin-top: 250px;
 }
 
@@ -182,7 +182,6 @@ body {
   align-items: center;
   justify-content: center;
   min-width: 100%;
-  padding-top: 100px;
   padding-bottom: 150px;
 }
 
@@ -236,11 +235,6 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-}
-
-.section3__services__rang1__service__Photo {
-  width: 200px;
-  height: 200px;
 }
 
 /*section4*/
@@ -557,8 +551,8 @@ body {
 .primary-subtitle {
   color: var(--title-color);
   font-family: Poppins;
-  font-weight: 700;
   font-size: 22px;
+  font-weight: 500;
   letter-spacing: 0.02em;
 }
 
