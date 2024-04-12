@@ -557,7 +557,7 @@ body {
 .primary-subtitle {
   color: var(--title-color);
   font-family: Poppins;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 22px;
   letter-spacing: 0.02em;
 }
