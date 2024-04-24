@@ -624,7 +624,7 @@ body {
 }
 
 @media all and (max-width: 1024px) {
-  /*Section*/
+  /*Section1*/
   .section1 {
     width: auto;
     padding-bottom: 200px;
@@ -634,6 +634,16 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
+  }
+  .section1__header__logo__title{
+    font-size: 18px;
+  }
+  .section1__header__logo__img{
+    height: 20px;
+    width: 20px;
+  }
+  .section1__header__nav__menu__link {
+    font-size: 08pt;
   }
   .section1__identity {
     width: auto;
@@ -653,12 +663,12 @@ body {
     width: auto;
   }
   .section1__identity__profile__photos {
-    width: auto;
+    width: 300px;
     margin-left: 0px;
     margin-top: 40px;
   }
   .section1__identity__profile__text-content__title {
-    font-size: 38px;
+    font-size: 25px;
   }
 
   /* Section2*/
@@ -675,13 +685,17 @@ body {
   }
   .section2__about__photo {
     margin: 0px;
+    width: 300px;
   }
 
   .section2__about__text-content__title {
-    font-size: 25px;
+    font-size: 18px;
     line-height: 30px;
   }
-  /*Section*/
+  .section2__about__text-content p{
+    text-align: center;
+  }
+  /*Section3*/
 
   .section3 {
     padding-top: 10px;
@@ -693,8 +707,16 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+    .section3__experiance p{
+      text-align: center;
+    }
+    .section3__experiance__text-content__title{
+      font-size: 18px;
+      line-height: 30px;
+    }
   .section3__experiance__photos {
-    width: 420px;
+    width: 300px;
     margin-top: 70px;
   }
 
@@ -718,7 +740,7 @@ body {
   }
   .primary-subtitle {
     color: var(--title-color);
-    font-size: 18px;
+    font-size: 12px;
   }
   .paragraph {
     font-size: 12px;
@@ -743,14 +765,16 @@ body {
     display: none;
   }
   .section4__info__title {
-    font-size: 20px;
+    font-size: 16px;
   }
   .section4__info__paragraph {
-    font-size: 10px;
+    font-size: 8px;
   }
   .bouton-blanc {
     padding: 11px 23px 11px 23px;
   }
+
+    /*section5*/
   .section5 {
     width: auto;
     margin-top: 100px;
@@ -764,12 +788,12 @@ body {
   }
 
   .section5__image-video {
-    width: 500px;
+    width: 350px;
   }
 
   .section5__image-play {
-    transform: translateY(-310px);
-    height: 60px;
+    transform: translate(0px,-260px);
+    height: 40px;
   }
 
   .section5__performance {
@@ -785,17 +809,20 @@ body {
   .section5__performance__bouton__text {
     font-size: 14px;
   }
+  /*section6*/
+
   .section6__title {
-    font-size: 20px;
+    font-size: 18px;
   }
   .section6__rang1,
   .section6__rang2 {
     flex-direction: column;
+    margin-top: 40px;
   }
 
   .section6__rang1__rectangle__paragraph,
   .section6__rang2__rectangle__paragraph {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .section6__rang1__rectangle__profile__nom,
@@ -809,21 +836,23 @@ body {
   }
 
   .section6__flech__gauche {
-    transform: translate(-125px, 422px);
-    height: 40px;
+    transform: translate(-125px, 450px);
+    height: 20px;
   }
 
   .section6__flech__droite {
-    transform: translate(122px, 414px);
-    height: 24px;
-    font-weight: bolder;
+    transform: translate(125px, 450px);
+    height: 20px;
   }
 
   .section6__rang2 {
-    margin-top: -20px;
+    margin-top: 0px;
   }
+  /*footer*/
+
   .footer {
     width: auto;
+    padding:40px 0px 30px  0px;
   }
   .footer__lists {
     width: auto;
@@ -846,30 +875,30 @@ body {
   }
   .liste2 {
     width: auto;
-    gap: 90px;
+    gap: 85px;
   }
 
   .footer__lists__list1__element__title {
-    font-size: 25px;
+    font-size: 18px;
   }
   .footer__lists__list__element {
-    font-size: 10px;
+    font-size: 8px;
   }
   .footer__lists__list1 {
-    gap: 30px;
+    gap: 10px;
     transform: translateY(20px);
   }
 
   .footer__lists__list2,
   .footer__lists__list3,
   .footer__lists__list4 {
-    gap: 20px;
+    gap: 3px;
   }
   .footer__lists__list2__title,
   .footer__lists__list3__title,
   .footer__lists__list4__title {
     list-style: none;
-    font-size: 18px;
+    font-size: 14px;
   }
   .footer__lists__list1__element__image{
     height: 40px;
@@ -877,6 +906,7 @@ body {
   }
 
   .footer__paragraph{
-    font-size: 12px;
+    font-size: 10px;
+    margin-top: -20px;
   }
 }
