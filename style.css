@@ -47,7 +47,7 @@ body {
   text-align: center-;
   display: flex;
   gap: 150px;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .section1__header__logo__title {
@@ -326,7 +326,10 @@ body {
 }
 
 .section5__image-play {
-  transform: translateY(-470px);
+  transform: translate(420px,350px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section5__title {
@@ -334,7 +337,7 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 48px;
-  text-align: center;
+  text-align: center
   margin-bottom: -10px;
 }
 
@@ -363,6 +366,11 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
+  .section5__image{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
 
 /*section6*/
 
@@ -390,7 +398,7 @@ body {
 
 .section6__flech__droite {
   transform: translate(430px, -10px);
-  height: 35px;
+  height: 60px;
 }
 
 .section6__rang1 {
@@ -669,6 +677,7 @@ body {
   }
   .section1__identity__profile__text-content__title {
     font-size: 25px;
+    line-height: 30px;
   }
 
   /* Section2*/
@@ -689,7 +698,7 @@ body {
   }
 
   .section2__about__text-content__title {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
   }
   .section2__about__text-content p{
@@ -705,14 +714,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
   }
 
     .section3__experiance p{
-      text-align: center;
     }
     .section3__experiance__text-content__title{
-      font-size: 18px;
+      font-size: 16px;
       line-height: 30px;
     }
   .section3__experiance__photos {
@@ -780,26 +788,26 @@ body {
     margin-top: 100px;
   }
   .section5__title {
-    font-size: 19px;
+    font-size: 16px;
   }
 
   .paragraph {
-    font-size: 09px;
+    font-size: 07px;
   }
 
   .section5__image-video {
-    width: 350px;
+    width: 300px;
   }
 
   .section5__image-play {
-    transform: translate(0px,-260px);
+    transform: translate(125px,115px);
     height: 40px;
   }
 
   .section5__performance {
     display: grid;
     flex-direction: column;
-    margin-top: -50px;
+    margin-top: 50px;
   }
 
   .section5__performance__bouton {
@@ -810,9 +818,12 @@ body {
     font-size: 14px;
   }
   /*section6*/
+  .section6{
+    margin-top: 100px;
+  }
 
   .section6__title {
-    font-size: 18px;
+    font-size: 16px;
   }
   .section6__rang1,
   .section6__rang2 {
@@ -828,6 +839,7 @@ body {
   .section6__rang1__rectangle__profile__nom,
   .section6__rang2__rectangle__profile__nom {
     font-size: 10px;
+  
   }
 
   .section6__rang1__rectangle__profile__paragraph,
@@ -836,12 +848,12 @@ body {
   }
 
   .section6__flech__gauche {
-    transform: translate(-125px, 450px);
+    transform: translate(-90px, 480px);
     height: 20px;
   }
 
   .section6__flech__droite {
-    transform: translate(125px, 450px);
+    transform: translate(90px, 480px);
     height: 20px;
   }
 
@@ -875,7 +887,7 @@ body {
   }
   .liste2 {
     width: auto;
-    gap: 85px;
+    gap: 80px;
   }
 
   .footer__lists__list1__element__title {
