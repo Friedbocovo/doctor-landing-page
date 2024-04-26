@@ -164,13 +164,13 @@ body {
 }
 
 .section2__plusicone {
-  margin-top: -450px;
-  margin-left: 60px;
+  transform: translate(150px,-450px);
 }
 
 /* section3*/
 
 .section3 {
+  margin-top: -250px;
   background: var(--bg1-color);
   display: flex;
   flex-direction: column;
@@ -319,10 +319,15 @@ body {
 .section5 {
   min-width: 100px;
   text-align: center;
+  margin-top: -90px;
 }
 
 .section5__image-video {
   width: 950px;
+}
+
+.section5__image{
+  margin-top: -90px;
 }
 
 .section5__image-play {
@@ -337,8 +342,8 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 48px;
-  text-align: center
-  margin-bottom: -10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .section5__performance {
@@ -346,7 +351,7 @@ body {
   gap: 24px;
   justify-content: center;
   align-items: center;
-  margin-top: -50px;
+  margin-top: 50px;
 }
 
 .section5__performance__bouton {
@@ -393,12 +398,12 @@ body {
 
 .section6__flech__gauche {
   transform: translateX(-450px);
-  height: 60px;
+  height: 30px;
 }
 
 .section6__flech__droite {
-  transform: translate(430px, -10px);
-  height: 60px;
+  transform: translateX(450px);
+  height: 30px;
 }
 
 .section6__rang1 {
@@ -634,7 +639,7 @@ body {
 @media all and (max-width: 1024px) {
   /*Section1*/
   .section1 {
-    width: auto;
+    border:1px solid  red;
     padding-bottom: 200px;
   }
   .section1__header {
@@ -682,7 +687,8 @@ body {
 
   /* Section2*/
   .section2 {
-    width: auto;
+    border:1px solid  red;
+    margin-top: -100px;
   }
 
   .section2__about {
@@ -693,20 +699,27 @@ body {
     width: auto;
   }
   .section2__about__photo {
-    margin: 0px;
-    width: 300px;
+    margin-right: 0px;
+    width: 290px;
   }
 
   .section2__about__text-content__title {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 25px;
   }
   .section2__about__text-content p{
-    text-align: center;
+    text-align: left;
+    line-height: 10px;
+  }
+  .section2__plusicone {
+    transform: translate(0px,0px);
+    display: none;
   }
   /*Section3*/
 
   .section3 {
+    min-width: auto;
+    border:1px solid  red;
     padding-top: 10px;
     margin-top: 100px;
   }
@@ -714,17 +727,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
   }
 
-    .section3__experiance p{
-    }
     .section3__experiance__text-content__title{
       font-size: 16px;
-      line-height: 30px;
+      line-height: 25px;
     }
   .section3__experiance__photos {
-    width: 300px;
+    width: 290px;
     margin-top: 70px;
   }
 
@@ -764,7 +775,7 @@ body {
     font-size: 18px;
   }
   .section4__info {
-    width: auto;
+    border:1px solid  red;
     padding: 0px 20px 20px 20px;
     margin: 10px;
     margin-top: -150px;
@@ -773,10 +784,11 @@ body {
     display: none;
   }
   .section4__info__title {
-    font-size: 16px;
+    font-size: 14px;
   }
   .section4__info__paragraph {
-    font-size: 8px;
+    font-size: 7px;
+    line-height: 10px;
   }
   .bouton-blanc {
     padding: 11px 23px 11px 23px;
@@ -784,19 +796,21 @@ body {
 
     /*section5*/
   .section5 {
-    width: auto;
+    border:1px solid  red;
+    min-width: auto;
     margin-top: 100px;
   }
   .section5__title {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .paragraph {
-    font-size: 07px;
+    font-size: 06px;
+    line-height: 10px;
   }
 
   .section5__image-video {
-    width: 300px;
+    width: 290px;
   }
 
   .section5__image-play {
@@ -817,13 +831,20 @@ body {
   .section5__performance__bouton__text {
     font-size: 14px;
   }
+
+  .section5__image{
+    margin-top: -30px;
+  }
   /*section6*/
   .section6{
-    margin-top: 100px;
+    border:1px solid  red;
+    margin-top: 80px;
+    min-width: auto;
   }
 
   .section6__title {
     font-size: 16px;
+    line-height: 30px;
   }
   .section6__rang1,
   .section6__rang2 {
@@ -863,8 +884,9 @@ body {
   /*footer*/
 
   .footer {
-    width: auto;
+    border:1px solid  red;
     padding:40px 0px 30px  0px;
+    min-width: auto;
   }
   .footer__lists {
     width: auto;
@@ -887,7 +909,7 @@ body {
   }
   .liste2 {
     width: auto;
-    gap: 80px;
+    gap: 75px;
   }
 
   .footer__lists__list1__element__title {
@@ -921,4 +943,5 @@ body {
     font-size: 10px;
     margin-top: -20px;
   }
+  
 }
