@@ -716,7 +716,7 @@ body {
   /*Section3*/
 
   .section3 {
-    min-width: auto;
+    min-width: 100%;
 
     padding-top: 10px;
     margin-top: 100px;
@@ -793,7 +793,7 @@ body {
 
   /*section5*/
   .section5 {
-    min-width: auto;
+    min-width: 100%;
     margin-top: 100px;
   }
   .section5__title {
@@ -834,7 +834,7 @@ body {
   /*section6*/
   .section6 {
     margin-top: 80px;
-    min-width: auto;
+    min-width: 100%;
   }
 
   .section6__title {
@@ -879,7 +879,7 @@ body {
 
   .footer {
     padding: 40px 0px 30px 0px;
-    min-width: auto;
+    min-width: 100%;
   }
   .footer__lists {
     width: auto;
