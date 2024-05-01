@@ -636,9 +636,13 @@ body {
   display: flex;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
+  body{
+    margin:0px;
+  }
   /*Section1*/
   .section1 {
+    margin:0px;
     padding-bottom: 200px;
   }
   .section1__header {
@@ -646,6 +650,7 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
   }
   .section1__header__logo__title {
     font-size: 18px;
@@ -763,7 +768,7 @@ body {
     font-size: 12px;
   }
   .paragraph2 {
-    font-size: 10px;
+    font-size: 8px;
   }
   .services-photos {
     height: 150px;
@@ -782,6 +787,8 @@ body {
   }
   .section4__info__title {
     font-size: 14px;
+    line-height: 10px;
+    margin-bottom: 25px;
   }
   .section4__info__paragraph {
     font-size: 7px;
@@ -798,6 +805,7 @@ body {
   }
   .section5__title {
     font-size: 14px;
+    line-height: 10px;
   }
 
   .paragraph {
@@ -839,7 +847,7 @@ body {
 
   .section6__title {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 22px;
   }
   .section6__rang1,
   .section6__rang2 {
@@ -879,7 +887,7 @@ body {
 
   .footer {
     padding: 40px 0px 30px 0px;
-    min-width: 100%;
+    width: 100%;
   }
   .footer__lists {
     width: auto;
@@ -934,5 +942,11 @@ body {
   .footer__paragraph {
     font-size: 10px;
     margin-top: -20px;
+  }
+
+  .footer__ul1__li3__div__img1,
+  .footer__ul1__li3__div__img2,
+  .footer__ul1__li3__div__img3{
+    height: 25px;
   }
 }
