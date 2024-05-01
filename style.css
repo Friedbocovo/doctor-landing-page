@@ -694,7 +694,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: auto;
+    min-width: 100%;
   }
   .section2__about__photo {
     margin-right: 0px;
