@@ -647,7 +647,6 @@ body {
     padding-bottom: 200px;
   }
   .section1__header {
-   
     min-width: auto;
     display: block;
     justify-content: center;
@@ -705,11 +704,11 @@ body {
   /* Section2*/
   .section2 {
     width: auto;
-    margin-top: -150px;
+    margin-top: 0px;
   }
 
   .section2__about {
-   
+   margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -741,14 +740,13 @@ body {
     padding-bottom: 80px;
     margin-top: 80px;
   }
+ 
   .section3__experiance {
-   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .section3__experiance__text-content__title {
     font-size: 16px;
     line-height: 25px;
@@ -844,6 +842,9 @@ body {
     text-align: center;
   }
 
+  .section3 p{
+    text-align: left;
+ }
   .section5__image-video {
     width: 290px;
   }
