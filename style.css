@@ -655,6 +655,10 @@ body {
     margin-left: 10px;
   }
 
+  .section1 p{
+    margin-bottom: 10px;
+  }
+
   .section1__header__nav__menu {
     display: flex;
     justify-content: center;
@@ -701,8 +705,7 @@ body {
   /* Section2*/
   .section2 {
     width: auto;
-   
-    margin-top: -100px;
+    margin-top: -150px;
   }
 
   .section2__about {
@@ -724,8 +727,7 @@ body {
     line-height: 25px;
   }
   .section2__about__text-content p {
-    text-align: left;
-    line-height: 10px;
+    line-height: 14px;
   }
   .section2__plusicone {
     transform: translate(0px, 0px);
@@ -735,9 +737,9 @@ body {
 
   .section3 {
     min-width: auto;
-   
     padding-top: 10px;
-    margin-top: 100px;
+    padding-bottom: 80px;
+    margin-top: 80px;
   }
   .section3__experiance {
    
@@ -785,7 +787,6 @@ body {
     font-size: 10px;
   }
   .services-photos {
-   
     height: 150px;
     width: 200px;
   }
@@ -823,7 +824,6 @@ body {
 
   /*section5*/
   .section5 {
-   
     min-width: auto;
     margin-top: 20px;
     display: flex;
@@ -840,6 +840,8 @@ body {
     font-size: 10px;
     line-height: 14px;
     text-align: left;
+    margin: 15px;
+    text-align: center;
   }
 
   .section5__image-video {
@@ -870,7 +872,6 @@ body {
   }
   /*section6*/
   .section6 {
-   
     margin-top: 80px;
     min-width: auto;
     display: flex;
@@ -936,6 +937,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 25px;
   }
   .liste1,
   .liste2 {
