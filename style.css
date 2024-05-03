@@ -742,6 +742,7 @@ body {
   }
  
   .section3__experiance {
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
