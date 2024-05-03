@@ -842,6 +842,9 @@ body {
     text-align: center;
   }
 
+  .section2__paragraph{
+    font-size: 8px;
+  }
   .section3 p{
     text-align: left;
  }
