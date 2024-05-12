@@ -113,7 +113,7 @@ body {
 
 .section1__perfommances__perfommance {
   display: flex;
-  padding: 8px 18px 8px 18px;
+  padding: 8px 18px 8px 18px; 
   gap: 12px;
   border-radius: 12px;
   box-shadow: 0px 8px 23px 0px var(--box-shadow2-color);
@@ -164,7 +164,7 @@ body {
 }
 
 .section2__plusicone {
-  transform: translate(150px, -450px);
+  transform: translate(70px, -450px);
 }
 
 /* section3*/
