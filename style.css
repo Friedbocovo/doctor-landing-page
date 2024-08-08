@@ -50,6 +50,13 @@ body {
   margin: 10px;
 }
 
+.menu{
+  opacity: 0;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+
 .section1__header__logo__title {
   color: var(--color-blue);
   font-size: 32px;
@@ -62,6 +69,13 @@ body {
 }
 
 .section1__header__nav__menu {
+  gap: 40px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.section1__header__nav__menu__links{
   gap: 40px;
   list-style: none;
   text-decoration: none;
@@ -245,7 +259,12 @@ body {
 }
 
 /*section4*/
-
+.section1__header__nav__menu {
+  gap: 40px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
 .section4 {
   text-align: center;
   display: flex;
@@ -644,30 +663,36 @@ body {
 @media all and (max-width: 768px) {
   body {
     margin: 0px;
+    
   }
+
   /*Section1*/
   .section1 {
-   
     margin: 0px;
     padding-bottom: 200px;
+    
   }
+
   .section1__header {
+    margin-top: 20px;
     min-width: auto;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
+    display: flex; 
+    gap: 70px;
   }
 
   .section1 p{
     margin-bottom: 10px;
   }
 
+  .section1__header__button{
+  height: 50px;
+  transform: translate(-300px,50px)
+  }
+
   .section1__header__nav__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     margin-left: -20px;
+    transform: translateX(200px)
   }
   .section1__header__logo__title {
     font-size: 18px;
@@ -723,7 +748,7 @@ body {
   .section2__about__photo {
    
     margin-right: 0px;
-    width: 290px;
+    width: 270px;
   }
 
   .section2__about__text-content__title {
@@ -740,6 +765,8 @@ body {
   /*Section3*/
 
   .section3 {
+    padding-left: 10px;
+    padding-right: 10px;
     min-width: auto;
     padding-top: 10px;
     padding-bottom: 80px;
@@ -747,6 +774,8 @@ body {
   }
  
   .section3__experiance {
+    padding-left: 30px;
+    padding-right: 10px;
     margin-left: 12px;
     display: flex;
     flex-direction: column;
@@ -758,8 +787,11 @@ body {
     line-height: 25px;
   }
   .section3__experiance__photos {
-    width: 290px;
+    width: 270px;
     margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
   }
 
   .section3__services__rang1 {
@@ -800,6 +832,7 @@ body {
 
   .section4 {
     min-width: auto;
+    padding: 10px;
   }
   .section4__info {
     padding: 0px 20px 20px 20px;
@@ -828,6 +861,7 @@ body {
 
   /*section5*/
   .section5 {
+    padding: 10px;
     min-width: auto;
     margin-top: 20px;
     display: flex;
@@ -879,7 +913,9 @@ body {
   }
   /*section6*/
   .section6 {
+    padding: 10px;
     margin-top: 80px;
+   padding-bottom: 80px;
     min-width: auto;
     display: flex;
     flex-direction: column;
@@ -913,12 +949,12 @@ body {
   }
 
   .section6__flech__gauche {
-    transform: translate(-90px, 480px);
+    transform: translate(-90px, 450px);
     height: 20px;
   }
 
   .section6__flech__droite {
-    transform: translate(90px, 480px);
+    transform: translate(90px, 450px);
     height: 20px;
   }
 
@@ -928,13 +964,16 @@ body {
   /*footer*/
 
   .footer {
-   
+    display: flex;
+    
+    padding: 10px;
     padding: 40px 0px 30px 0px;
     min-width: auto;
   }
   .footer__lists {
     min-width: auto;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -948,11 +987,11 @@ body {
   }
   .liste1,
   .liste2 {
-    display: flex;
+    display: block;
   }
   .liste2 {
     min-width: auto;
-    gap: 75px;
+    gap: 35px;
   }
 
   .footer__lists__list1__element__title {
@@ -964,6 +1003,10 @@ body {
   .footer__lists__list1 {
     gap: 10px;
     transform: translateY(20px);
+  }
+
+  .liste2 {
+    transform: translateX(-40px);
   }
 
   .footer__lists__list2,
@@ -992,4 +1035,49 @@ body {
   .footer__ul1__li3__div__img3 {
     height: 25px;
   }
+  .menu{
+    opacity: 1;
+    position:relative;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .section1__header__nav__menu{
+    -webkit-transition: all 700ms ease-in;
+     
+  }
+  .section1__header__nav__menu__link{
+    position: absolute;
+  }
+    .section1__header__nav__menu__links{
+     font-size: 12px;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     gap: 0px;
+     opacity: 0;
+     margin-top: -30px;
+
+  }
+
+  .active{
+    display:inline;
+  }
+
+  .active-menu{
+    -webkit-transition: all 700ms ease-in;
+    gap: 40px;
+    opacity: 1;
+    padding: 10px;
+
+  }
+}
+
+.timeout{
+  -webkit-transition: all 700ms ease-in;
 }
