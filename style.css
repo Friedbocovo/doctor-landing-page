@@ -50,7 +50,7 @@ body {
   margin: 10px;
 }
 
-.menu{
+.menu {
   opacity: 0;
   position: absolute;
   height: 50px;
@@ -75,7 +75,7 @@ body {
   display: flex;
 }
 
-.section1__header__nav__menu__links{
+.section1__header__nav__menu__links {
   gap: 40px;
   list-style: none;
   text-decoration: none;
@@ -127,7 +127,7 @@ body {
 
 .section1__perfommances__perfommance {
   display: flex;
-  padding: 8px 18px 8px 18px; 
+  padding: 8px 18px 8px 18px;
   gap: 12px;
   border-radius: 12px;
   box-shadow: 0px 8px 23px 0px var(--box-shadow2-color);
@@ -252,7 +252,7 @@ body {
   object-fit: cover;
   height: 200px;
 }
-.services-photos{
+.services-photos {
   width: 282px;
   object-fit: cover;
   height: 200px;
@@ -663,36 +663,34 @@ body {
 @media all and (max-width: 768px) {
   body {
     margin: 0px;
-    
   }
 
   /*Section1*/
   .section1 {
     margin: 0px;
     padding-bottom: 200px;
-    
   }
 
   .section1__header {
     margin-top: 20px;
     min-width: auto;
-    display: flex; 
+    display: flex;
     gap: 70px;
   }
 
-  .section1 p{
+  .section1 p {
     margin-bottom: 10px;
   }
 
-  .section1__header__button{
-  height: 50px;
-  transform: translate(-300px,50px)
+  .section1__header__button {
+    height: 50px;
+    transform: translate(-300px, 50px);
   }
 
   .section1__header__nav__menu {
     display: grid;
     margin-left: -20px;
-    transform: translateX(200px)
+    transform: translateX(200px);
   }
   .section1__header__logo__title {
     font-size: 18px;
@@ -738,7 +736,7 @@ body {
   }
 
   .section2__about {
-   margin: 10px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -746,7 +744,6 @@ body {
     min-width: auto;
   }
   .section2__about__photo {
-   
     margin-right: 0px;
     width: 270px;
   }
@@ -772,7 +769,7 @@ body {
     padding-bottom: 80px;
     margin-top: 80px;
   }
- 
+
   .section3__experiance {
     padding-left: 30px;
     padding-right: 10px;
@@ -791,7 +788,7 @@ body {
     margin-top: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
   }
 
   .section3__services__rang1 {
@@ -837,7 +834,6 @@ body {
   .section4__info {
     padding: 0px 20px 20px 20px;
     margin: 10px;
-   
   }
 
   .section4__title {
@@ -847,7 +843,7 @@ body {
     display: none;
   }
   .section4__info__title {
-    font-size: 14px;
+    font-size: 10px;
     line-height: 17px;
     margin-bottom: 25px;
   }
@@ -875,14 +871,14 @@ body {
   }
 
   .paragraph {
-    font-size: 10px;
+    font-size: 8px;
     line-height: 14px;
     text-align: left;
     margin: 15px;
     text-align: center;
   }
 
-  .section2__paragraph{
+  .section2__paragraph {
     font-size: 8px;
   }
   .section5__image-video {
@@ -915,7 +911,7 @@ body {
   .section6 {
     padding: 10px;
     margin-top: 80px;
-   padding-bottom: 80px;
+    padding-bottom: 80px;
     min-width: auto;
     display: flex;
     flex-direction: column;
@@ -935,7 +931,7 @@ body {
 
   .section6__rang1__rectangle__paragraph,
   .section6__rang2__rectangle__paragraph {
-    font-size: 12px;
+    font-size: 08px;
   }
 
   .section6__rang1__rectangle__profile__nom,
@@ -965,7 +961,7 @@ body {
 
   .footer {
     display: flex;
-    
+
     padding: 10px;
     padding: 40px 0px 30px 0px;
     min-width: auto;
@@ -1035,9 +1031,9 @@ body {
   .footer__ul1__li3__div__img3 {
     height: 25px;
   }
-  .menu{
+  .menu {
     opacity: 1;
-    position:relative;
+    position: relative;
     height: 50px;
     width: 50px;
     cursor: pointer;
@@ -1047,37 +1043,34 @@ body {
     display: flex;
   }
 
-  .section1__header__nav__menu{
+  .section1__header__nav__menu {
     -webkit-transition: all 700ms ease-in;
-     
   }
-  .section1__header__nav__menu__link{
+  .section1__header__nav__menu__link {
     position: absolute;
   }
-    .section1__header__nav__menu__links{
-     font-size: 12px;
-     display: flex;
-     flex-direction: column;
-     position: relative;
-     gap: 0px;
-     opacity: 0;
-     margin-top: -30px;
-
+  .section1__header__nav__menu__links {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 0px;
+    opacity: 0;
+    margin-top: -30px;
   }
 
-  .active{
-    display:inline;
+  .active {
+    display: inline;
   }
 
-  .active-menu{
+  .active-menu {
     -webkit-transition: all 700ms ease-in;
     gap: 40px;
     opacity: 1;
     padding: 10px;
-
   }
 }
 
-.timeout{
+.timeout {
   -webkit-transition: all 700ms ease-in;
 }
