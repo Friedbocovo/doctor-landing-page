@@ -23,6 +23,11 @@
     #3a8ef6 -291.15%,
     #6f3afa 817.96%
   );
+  --b-color: linear-gradient(
+    95.7deg,
+    #105ab4 -291.15%,
+    #2f0b8a 817.96%
+  );
   --bg3-color: linear-gradient(145.08deg, #1678f2 3.73%, #65a8fb 132.69%);
   --bg4-color: #1678f2;
 }
@@ -670,6 +675,7 @@ body {
     margin: 0px;
     padding-bottom: 200px;
     width: auto;
+    background-color: rgba(159, 205, 226, 0.199);
 
   }
 
