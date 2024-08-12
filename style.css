@@ -660,7 +660,7 @@ body {
   display: flex;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 780px) {
   body {
     margin: 0px;
   }
