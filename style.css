@@ -675,8 +675,6 @@ body {
     margin: 0px;
     padding-bottom: 200px;
     width: auto;
-    background-color: rgba(159, 205, 226, 0.199);
-
   }
 
   .section1__header {
@@ -893,7 +891,7 @@ body {
   }
 
   .paragraph {
-    font-size: 7px;
+    font-size: 10px;
     line-height: 14px;
     text-align: left;
     margin: 15px;
@@ -901,7 +899,7 @@ body {
   }
 
   .section2__paragraph {
-    font-size: 8px;
+    font-size: 10px;
   }
   .section5__image-video {
     width: 290px;
@@ -954,7 +952,7 @@ body {
 
   .section6__rang1__rectangle__paragraph,
   .section6__rang2__rectangle__paragraph {
-    font-size: 08px;
+    font-size: 09px;
   }
 
   .section6__rang1__rectangle__profile__nom,
