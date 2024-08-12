@@ -721,6 +721,7 @@ body {
   .section1__identity {
     min-width: auto;
     margin-top: -170px;
+    margin-left: 20px;
   }
   .section1__identity__profile {
     display: flex;
@@ -743,6 +744,10 @@ body {
   .section1__identity__profile__text-content__title {
     font-size: 25px;
     line-height: 30px;
+
+  }
+  .section1__identity__profile__text-content__name{
+    transform: translateX(18px);
   }
 
   /* Section2*/
@@ -763,6 +768,10 @@ body {
   .section2__about__photo {
     margin-right: 0px;
     width: 270px;
+  }
+
+  .section2__about__text-content{
+    margin-left: 20px;
   }
 
   .section2__about__text-content__title {
