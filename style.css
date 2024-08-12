@@ -669,10 +669,8 @@ body {
   .section1 {
     margin: 0px;
     padding-bottom: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: auto;
+
   }
 
   .section1__header {
@@ -680,21 +678,29 @@ body {
     min-width: auto;
     display: flex;
     gap: 70px;
+    transform: translateX(-20px);
   }
 
   .section1 p {
     margin-bottom: 10px;
   }
 
+  .section1__header__logo{
+    transform: translateX(90px);
+    display: flex;
+  }
+
   .section1__header__button {
     height: 50px;
-    transform: translate(-300px, 50px);
+    width: 172px;
+    transform: translate(-120px, 60px);
   }
 
   .section1__header__nav__menu {
     display: grid;
     margin-left: -20px;
-    transform: translateX(100px);
+    transform: translateX(200px);
+
   }
   .section1__header__logo__title {
     font-size: 18px;
@@ -737,6 +743,7 @@ body {
   .section2 {
     width: auto;
     margin-top: 0px;
+
   }
 
   .section2__about {
@@ -772,6 +779,7 @@ body {
     padding-top: 10px;
     padding-bottom: 80px;
     margin-top: 80px;
+
   }
 
   .section3__experiance {
@@ -834,6 +842,7 @@ body {
   .section4 {
     min-width: auto;
     padding: 10px;
+
   }
   .section4__info {
     padding: 0px 20px 20px 20px;
@@ -868,14 +877,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
   .section5__title {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 14px;
   }
 
   .paragraph {
-    font-size: 8px;
+    font-size: 7px;
     line-height: 14px;
     text-align: left;
     margin: 15px;
@@ -921,10 +931,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
 
   .section6__title {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 22px;
   }
   .section6__rang1,
@@ -949,12 +960,12 @@ body {
   }
 
   .section6__flech__gauche {
-    transform: translate(-90px, 450px);
+    transform: translate(-90px, 420px);
     height: 20px;
   }
 
   .section6__flech__droite {
-    transform: translate(90px, 450px);
+    transform: translate(90px, 420px);
     height: 20px;
   }
 
