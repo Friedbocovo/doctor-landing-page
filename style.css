@@ -121,6 +121,10 @@ body {
   margin-left: 150px;
 }
 
+.section1__identity__profile__text-content__paragraph{
+  width: 500px;
+}
+
 .section1__perfommances {
   display: flex;
   gap: 40px;
@@ -174,6 +178,10 @@ body {
   margin-right: 100px;
 }
 
+.section2__paragraph{
+  width: 490px;
+}
+
 .section2__about__text-content__title {
   font-family: Poppins;
   font-size: 32px;
@@ -214,6 +222,9 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 45px;
+}
+.section3__experiance__text-content__paragraph{
+  width: 500px;
 }
 
 .section3__services {
@@ -337,6 +348,7 @@ body {
   transform: translate(410px, -490px);
 }
 
+
 .section4__img-plus6 {
   width: 16.47px;
   height: 16px;
@@ -423,6 +435,11 @@ body {
   font-weight: 600;
   line-height: 48px;
   text-align: center;
+}
+
+.section6__paragraph{
+  width: 700px;
+  margin-left: 300px;
 }
 
 .section6__flech__gauche {
@@ -689,6 +706,7 @@ body {
     margin-bottom: 10px;
   }
 
+
   .section1__header__logo{
     transform: translateX(165px);
     display: flex;
@@ -722,6 +740,10 @@ body {
     min-width: auto;
     margin-top: -170px;
     margin-left: 20px;
+  }
+
+  .section1__identity__profile__text-content__paragraph{
+    width: auto;
   }
   .section1__identity__profile {
     display: flex;
@@ -764,6 +786,9 @@ body {
     justify-content: center;
     align-items: center;
     min-width: auto;
+  }
+  .section2__paragraph{
+    width: auto;
   }
   .section2__about__photo {
     margin-right: 0px;
@@ -828,6 +853,9 @@ body {
     display: grid;
     margin-top: 40px;
   }
+  .section3__experiance__text-content__paragraph{
+    width: auto;
+  }
 
   .bouton-primaire__text {
     font-size: 14px;
@@ -878,6 +906,8 @@ body {
   .section4__info__paragraph {
     font-size: 7px;
     line-height: 10px;
+    width: auto;
+    
   }
   .bouton-blanc {
     padding: 11px 23px 11px 23px;
@@ -957,6 +987,10 @@ body {
   .section6__rang2 {
     flex-direction: column;
     margin-top: 40px;
+  }
+
+  .section6__paragraph{
+    width: auto;
   }
 
   .section6__rang1__rectangle__paragraph,
@@ -1099,6 +1133,8 @@ body {
     opacity: 1;
     padding: 10px;
   }
+
+
 }
 
 .timeout {
