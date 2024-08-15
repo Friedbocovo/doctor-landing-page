@@ -1,6 +1,6 @@
 const iconMenu=document.querySelector(".menu")
 const menu=document.querySelector("  .section1__header__nav__menu")
-const menuLinkActive=document.querySelector(".section1__header__nav__menu__links")
+const menuLinkActive=document.querySelector(".section1__header__nav__menu")
 
 iconMenu.addEventListener("click",()=>{
   menuLinkActive.classList.add("timeout")
